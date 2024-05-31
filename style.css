@@ -1,0 +1,137 @@
+.div1{
+    width: 100px;
+    height: 100px;
+    color: azure;
+    border: 1px solid red;
+    background-color: rgba(0,0,0,.75);
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    color: azure;
+    border: 1px solid red;
+    background-color: rgba(0,0,0,.55);
+}
+
+.div3{
+    width: 100px;
+    height: 100px;
+    color: azure;
+    border: 1px solid red;
+    background-color: rgba(0,0,0,.40);
+}
+
+/* Problem 1 */
+.p1{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.p1sub{
+    display: flex;
+}
+
+.p1div2{
+    margin-right: 10px;
+}
+
+/* Problem 2 */
+.p2{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.p2div2{
+    align-self: center;
+}
+
+.p2div3{
+    align-self: flex-end;
+}
+
+/* Problem 3 */
+.p3{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.p3div1{
+    width: 200px;
+    height: 200px;
+    color: azure;
+    border: 1px solid red;
+    background-color: rgba(0,0,0,.75);
+    position: relative;
+}
+
+.p3div2{
+    position:absolute;
+    left: 50px;
+    top: 50px;
+}
+
+
+/* Problem 4 */
+.p4{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.p4div2{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+/* Problem 5 */
+.p5{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+}
+
+.p5div1{
+    width: 350px;
+    height: 150px;
+    color: azure;
+    border: 1px solid red;
+    background-color: rgb(40, 40, 40);
+    position: relative;
+}
+
+.p5div2{
+    width: 100px;
+    height: 100px;
+    color: azure;
+    border: 1px solid red;
+    background-color: rgb(166, 0, 255);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.p5div3{
+    width: 100px;
+    height: 100px;
+    color: azure;
+    border: 1px solid red;
+    background-color: rgb(0, 0, 255);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
